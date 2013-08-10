@@ -1,4 +1,4 @@
-client = new Faye.Client("http://localhost:3000/faye")
+client = new Faye.Client("http://localhost:3333/faye")
 
 $ ->
   client.subscribe "/messages", (message) ->
