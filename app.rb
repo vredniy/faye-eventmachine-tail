@@ -8,3 +8,7 @@ end
 get '/application.js' do
   coffee :application
 end
+
+get '/style.css' do
+  sass :style
+end

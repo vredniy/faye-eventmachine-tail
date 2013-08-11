@@ -40,6 +40,7 @@ GEM
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
+    sass (3.2.10)
     sinatra (1.4.3)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -65,6 +66,7 @@ DEPENDENCIES
   eventmachine-tail
   faye
   foreman
+  sass
   sinatra
   slim
   thin
